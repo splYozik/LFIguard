@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LFIguard"
+version = "0.1.1"
+authors = [
+  { name="splYozik" }
+]
+description = "A lightweight Python library to protect web applications against LFI and Path Traversal attacks using deep canonicalization and directory anchoring."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["security", "waf", "lfi", "path-traversal", "input-validation", "appsec", "ctf"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security"
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/splYozik/LFIguard"
