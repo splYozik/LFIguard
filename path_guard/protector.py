@@ -26,7 +26,7 @@ class SafePathGuard:
         # BASE analysis
         if not user_input or not isinstance(user_input, str):
             return False
-
+        
         # Signature analysis
         if TRAV_HARD.search(user_input) or TRAV_PATHS.search(user_input):
             return False
